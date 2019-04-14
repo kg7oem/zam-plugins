@@ -61,7 +61,7 @@ ZamCompUI::ZamCompUI()
     fKnobRelease = new ZamKnob(this, knobImage);
     fKnobRelease->setAbsolutePos(108, 45);
     fKnobRelease->setId(ZamCompPlugin::paramRelease);
-    fKnobRelease->setRange(1.0f, 500.0f);
+    fKnobRelease->setRange(1.0f, 4000.0f);
     fKnobRelease->setLabel(true);
     fKnobRelease->setScrollStep(1.0f);
     fKnobRelease->setDefault(80.0f);

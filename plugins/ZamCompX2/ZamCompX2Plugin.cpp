@@ -51,7 +51,7 @@ void ZamCompX2Plugin::initParameter(uint32_t index, Parameter& parameter)
         parameter.unit       = "ms";
         parameter.ranges.def = 80.0f;
         parameter.ranges.min = 1.0f;
-        parameter.ranges.max = 500.0f;
+        parameter.ranges.max = 4000.0f;
         break;
     case paramKnee:
         parameter.hints      = kParameterIsAutomable;
